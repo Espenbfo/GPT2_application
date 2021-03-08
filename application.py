@@ -16,6 +16,6 @@ def onclick():
     text_box.delete("0.0", tk.END)
     text_box.insert("0.0", new_text)
 
-button = tk.Button(window, text="click me", command=onclick)
+button = tk.Button(window, text="generate", command=onclick)
 button.pack()
 window.mainloop()
